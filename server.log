@@ -1,0 +1,30 @@
+
+> anonymous-board@1.0.0 start
+> node server.js
+
+정적 파일 경로: C:\claude_1900_ksh\workspace\claude2\day02\public
+✓ Prisma 데이터베이스 연결 성공
+
+✓ 서버가 시작되었습니다
+  URL: http://localhost:8000
+
+사용 가능한 엔드포인트:
+
+[게시글 API]
+  GET    /api/posts           - 게시글 목록 조회
+  POST   /api/posts           - 게시글 작성
+  GET    /api/posts/:id       - 게시글 상세 조회 (조회수 증가)
+  PUT    /api/posts/:id       - 게시글 수정
+  DELETE /api/posts/:id       - 게시글 삭제
+
+[댓글 API]
+  GET    /api/posts/:postId/comments     - 댓글 목록 조회
+  POST   /api/posts/:postId/comments     - 댓글 작성
+  DELETE /api/comments/:id               - 댓글 삭제
+
+
+[2026-08-19T12:48:29.548Z] GET /api/posts
+[2026-08-19T12:48:41.676Z] GET /api/posts
+[2026-08-19T12:48:58.518Z] GET /api/posts
+[2026-08-19T12:49:54.115Z] GET /api/posts
+[2026-08-19T12:49:57.818Z] GET /api/posts

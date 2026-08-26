@@ -1,0 +1,39 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(Get-ChildItem *)",
+      "Bash(ls *)",
+      "PowerShell(cd 'C:\\\\claude_1900_ksh\\\\workspace\\\\claude2\\\\day01'; $env:PRISMA_SKIP_VALIDATION_WARNING=\"true\"; npx prisma migrate resolve --applied init; npx prisma db push --skip-generate)",
+      "Bash(xargs cat)",
+      "PowerShell(cd 'C:\\\\claude_1900_ksh\\\\workspace\\\\claude2\\\\day01'; $env:PORT=8000; node todo.js)",
+      "PowerShell(cd 'C:\\\\claude_1900_ksh\\\\workspace\\\\claude2\\\\day01'; $env:PORT=8000; node todo.js 2>&1)",
+      "Bash(npx prisma *)",
+      "Bash(node prisma/test-schema.js)",
+      "Bash(npm ls *)",
+      "Bash(timeout 5 node server.js)",
+      "Bash(curl -s http://localhost:8000/api/posts)",
+      "Bash(curl -s http://localhost:8000/api/posts/1/comments)",
+      "Bash(curl -s -X PUT http://localhost:8000/api/posts/4 -H 'Content-Type: application/json' -d '{ *)",
+      "Bash(curl -s -X POST http://localhost:8000/api/posts -H 'Content-Type: application/json' -d '{ *)",
+      "Bash(curl -s http://localhost:8000/api/posts/99999)",
+      "Bash(git init *)",
+      "Bash(git config *)",
+      "Bash(git commit -m 'feat: Express.js 백엔드 API 구현 완료 *)",
+      "Bash(npm start *)",
+      "Bash(pkill *)",
+      "Bash(awk '{print $2}')",
+      "Bash(xargs -r kill -9)",
+      "Bash(curl -s http://localhost:8000/index.html)",
+      "Bash(curl -s http://localhost:8000/)",
+      "Bash(kill -9 924)",
+      "Bash(cat)",
+      "Bash(chmod +x /tmp/test_frontend.sh)",
+      "Bash(bash /tmp/test_frontend.sh)"
+    ]
+  },
+  "enabledMcpjsonServers": [
+    "prisma"
+  ]
+}
