@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:8000/api';
+const API_BASE_URL = '/api';
 
 class APIClient {
   static async handleResponse(response) {
@@ -12,7 +12,7 @@ class APIClient {
   // Posts
   static async getPosts() {
     const response = await fetch(`${API_BASE_URL}/posts`);
-    return this.handleResponse(response);
+    return this.handleResponse(response)
   }
 
   static async getPost(id) {
